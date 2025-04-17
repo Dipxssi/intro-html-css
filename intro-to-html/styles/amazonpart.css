@@ -1,0 +1,52 @@
+.link{
+  color: rgb(0,113,133);
+}
+.link:hover{
+  color: red;
+}
+.T{
+  font-size: 30px;
+  font-weight: bolder;
+}
+.S{
+  color:rgb(0,118,0);
+  font-weight: bold;
+  font-size: 20px;
+}
+.F{
+  font-size: large;
+}
+.cart{
+  background-color:rgb(255,216,20) ;
+  color:black;
+  height: 36px;
+  border:none;
+  width:100px;
+  border-radius: 18px;
+  margin-right:8px;
+  cursor: pointer;
+  transition: background-color 0.15s,
+  opacity 0.15s;
+}
+.cart:hover{
+  background-color:rgb(241, 202, 7) ;
+}
+.cart:active{
+  opacity:0.4;
+}
+.buy{
+  background-color: rgb(255,164,28);
+  color:black;
+  height: 36px;
+  border:none;
+  width:100px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: background-color 0.15s,opacity 0.15s;
+}
+.buy:hover{
+  background-color: rgb(228, 140, 10);
+}
+.buy:active{
+  opacity:0.4s;
+}
